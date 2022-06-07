@@ -21,7 +21,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 875, y: 542}
+  m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -46,7 +46,7 @@ MonoBehaviour:
     y: 0
     width: 1920
     height: 997
-  m_MinSize: {x: 875, y: 542}
+  m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &3
 MonoBehaviour:
@@ -115,7 +115,7 @@ MonoBehaviour:
   m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 40
+  controlID: 64
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -140,7 +140,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 85
+  controlID: 65
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -165,7 +165,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 86
+  controlID: 37
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -393,9 +393,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 2e3c0000
-      m_LastClickedID: 0
-      m_ExpandedIDs: 26faffffc6faffff
+      m_SelectedIDs: 66fbffff
+      m_LastClickedID: -1178
+      m_ExpandedIDs: 6afbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -457,7 +457,7 @@ MonoBehaviour:
   m_Position:
     m_Target: {x: 0.3568353, y: 0.17536435, z: -98.91211}
     speed: 2
-    m_Value: {x: -3.07305, y: 1.7097987, z: -72.287094}
+    m_Value: {x: 0.3568353, y: 0.17536435, z: -98.91211}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -509,7 +509,7 @@ MonoBehaviour:
   m_Size:
     m_Target: 4.3632655
     speed: 2
-    m_Value: 3.1926754
+    m_Value: 4.3632655
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -599,11 +599,11 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes
+  - Assets
   m_LastFoldersGridSize: -1
   m_LastProjectPath: "Z:\\programs\\CourseWork_OOP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F
     \u0440\u0430\u0431\u043E\u0442\u0430"
@@ -611,9 +611,9 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 84390000
-    m_LastClickedID: 14724
-    m_ExpandedIDs: 00000000783900007a39000000ca9a3b
+    m_SelectedIDs: 60390000
+    m_LastClickedID: 14688
+    m_ExpandedIDs: 00000000603900006239000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -641,7 +641,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000783900007a390000
+    m_ExpandedIDs: 000000006039000062390000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
