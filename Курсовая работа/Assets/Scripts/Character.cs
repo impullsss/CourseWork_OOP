@@ -7,5 +7,5 @@ public class Character : Health
     public int damage;
     public float speed;
 
-    public virtual void moveCharacter() {}
+    public virtual void attackDamage() {}
 }

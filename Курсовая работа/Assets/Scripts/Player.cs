@@ -20,10 +20,16 @@ public class Player : Character
     private int extraJumps;
     public int extraJumpsValue;
 
+    Animator animator;
+    private bool isJumping;
+
+
+
     private void Start()
     {
         extraJumps = extraJumpsValue;
         rb = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
     }
 
 
@@ -33,6 +39,12 @@ public class Player : Character
 
         moveInput = Input.GetAxis("Horizontal");
         rb.velocity = new Vector2(moveInput * speed, rb.velocity.y);
+
+        if (animator)
+        {
+            animator.SetBool("Run", Mathf.Abs(moveInput) >= 0.01);//
+        }
+        
 
         if(facingRight == false && moveInput>0)
         {
@@ -54,6 +66,13 @@ public class Player : Character
 
     private void Update()
     {
+        isJumping = isGrounded;
+        if (!isJumping && !isGrounded)
+        {
+            animator.SetTrigger("Fall");
+        }
+
+
         if (isGrounded == true)
         {
             extraJumps = extraJumpsValue;
@@ -64,6 +83,11 @@ public class Player : Character
         {
             rb.velocity = Vector2.up * jumpForce;
             extraJumps--;
+            if (animator)
+            {
+                isJumping = true;
+                animator.SetTrigger("Jump");        
+            }
         }
         else if (Input.GetKeyDown(KeyCode.Space) && extraJumps == 0 && isGrounded == true)
         {
