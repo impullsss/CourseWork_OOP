@@ -23,9 +23,14 @@ public class Player : Character
     Animator animator;
     private bool isJumping;
 
+    override public void Die(GameObject gameObject)
+    { 
+        //здесь должна быть анимация смерти
+        gameObject.transform.position = new Vector3(-3, 0);  //перемещение персонажа на исходную позицию
+        health = maxHealth;
+    }
 
-
-    private void Start()
+private void Start()
     {
         extraJumps = extraJumpsValue;
         rb = GetComponent<Rigidbody2D>();
@@ -94,6 +99,7 @@ public class Player : Character
             rb.velocity = Vector2.up * jumpForce;
         }
 
+        if (health <= 0) Die(gameObject);
 
     }
 
