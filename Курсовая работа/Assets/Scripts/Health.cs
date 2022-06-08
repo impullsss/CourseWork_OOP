@@ -6,19 +6,12 @@ public class Health : MonoBehaviour
 {
     public int health;
     public int maxHealth;
-
-    public virtual void Die(GameObject gameObject) { }
-    public void TakeHit (int damage)
+    public virtual void Die(GameObject gameObject)
     {
-        health -= damage;
-
-        if (health <=0)
-        {
-            Die(gameObject);
-        }
+        Destroy(gameObject);
     }
-    
-    void Start()
+
+    private void Start()
     {
         health = maxHealth;
     }

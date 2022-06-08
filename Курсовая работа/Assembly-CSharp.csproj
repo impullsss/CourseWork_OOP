@@ -68,6 +68,7 @@
     <Compile Include="Assets\Scripts\Character.cs" />
     <Compile Include="Assets\Scripts\Health.cs" />
     <Compile Include="Assets\Scripts\Player.cs" />
+    <Compile Include="Assets\Scripts\Spikes.cs" />
     <Compile Include="Assets\Sprites\MenuElements\MainMenu.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>D:/Institute/КурсачГит1/CourseWork_OOP/Курсовая работа/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
