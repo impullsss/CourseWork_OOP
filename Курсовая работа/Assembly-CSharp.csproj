@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{ED982664-EDE4-A474-DC66-C4BE79E28C0E}</ProjectGuid>
+    <ProjectGuid>{C1F49DE1-3632-452B-BB48-7B74283079C7}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -68,88 +68,89 @@
     <Compile Include="Assets\Scripts\Character.cs" />
     <Compile Include="Assets\Scripts\Health.cs" />
     <Compile Include="Assets\Scripts\Player.cs" />
+    <Compile Include="Assets\Scripts\Slide.cs" />
     <Compile Include="Assets\Scripts\Spikes.cs" />
     <Compile Include="Assets\Sprites\MenuElements\MainMenu.cs" />
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>Z:/programs/CourseWork_OOP/Курсовая работа/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>Z:/programs/BackUp_CourseWork/BackUp_CourseWork/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Animation.Runtime">
-      <HintPath>Z:/programs/CourseWork_OOP/Курсовая работа/Library/ScriptAssemblies/Unity.2D.Animation.Runtime.dll</HintPath>
+      <HintPath>Z:/programs/BackUp_CourseWork/BackUp_CourseWork/Library/ScriptAssemblies/Unity.2D.Animation.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.PixelPerfect.Editor">
-      <HintPath>Z:/programs/CourseWork_OOP/Курсовая работа/Library/ScriptAssemblies/Unity.2D.PixelPerfect.Editor.dll</HintPath>
+      <HintPath>Z:/programs/BackUp_CourseWork/BackUp_CourseWork/Library/ScriptAssemblies/Unity.2D.PixelPerfect.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>Z:/programs/CourseWork_OOP/Курсовая работа/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>Z:/programs/BackUp_CourseWork/BackUp_CourseWork/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.SpriteShape.Editor">
-      <HintPath>Z:/programs/CourseWork_OOP/Курсовая работа/Library/ScriptAssemblies/Unity.2D.SpriteShape.Editor.dll</HintPath>
+      <HintPath>Z:/programs/BackUp_CourseWork/BackUp_CourseWork/Library/ScriptAssemblies/Unity.2D.SpriteShape.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>Z:/programs/CourseWork_OOP/Курсовая работа/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>Z:/programs/BackUp_CourseWork/BackUp_CourseWork/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Path.Editor">
-      <HintPath>Z:/programs/CourseWork_OOP/Курсовая работа/Library/ScriptAssemblies/Unity.2D.Path.Editor.dll</HintPath>
+      <HintPath>Z:/programs/BackUp_CourseWork/BackUp_CourseWork/Library/ScriptAssemblies/Unity.2D.Path.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>Z:/programs/CourseWork_OOP/Курсовая работа/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>Z:/programs/BackUp_CourseWork/BackUp_CourseWork/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>Z:/programs/CourseWork_OOP/Курсовая работа/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>Z:/programs/BackUp_CourseWork/BackUp_CourseWork/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Animation.Triangle.Runtime">
-      <HintPath>Z:/programs/CourseWork_OOP/Курсовая работа/Library/ScriptAssemblies/Unity.2D.Animation.Triangle.Runtime.dll</HintPath>
+      <HintPath>Z:/programs/BackUp_CourseWork/BackUp_CourseWork/Library/ScriptAssemblies/Unity.2D.Animation.Triangle.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="PsdPlugin">
-      <HintPath>Z:/programs/CourseWork_OOP/Курсовая работа/Library/ScriptAssemblies/PsdPlugin.dll</HintPath>
+      <HintPath>Z:/programs/BackUp_CourseWork/BackUp_CourseWork/Library/ScriptAssemblies/PsdPlugin.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>Z:/programs/CourseWork_OOP/Курсовая работа/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>Z:/programs/BackUp_CourseWork/BackUp_CourseWork/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>Z:/programs/CourseWork_OOP/Курсовая работа/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>Z:/programs/BackUp_CourseWork/BackUp_CourseWork/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Mathematics">
-      <HintPath>Z:/programs/CourseWork_OOP/Курсовая работа/Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
+      <HintPath>Z:/programs/BackUp_CourseWork/BackUp_CourseWork/Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Psdimporter.Editor">
-      <HintPath>Z:/programs/CourseWork_OOP/Курсовая работа/Library/ScriptAssemblies/Unity.2D.Psdimporter.Editor.dll</HintPath>
+      <HintPath>Z:/programs/BackUp_CourseWork/BackUp_CourseWork/Library/ScriptAssemblies/Unity.2D.Psdimporter.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.InternalAPIEngineBridge.001">
-      <HintPath>Z:/programs/CourseWork_OOP/Курсовая работа/Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.001.dll</HintPath>
+      <HintPath>Z:/programs/BackUp_CourseWork/BackUp_CourseWork/Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.001.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Sprite.Editor">
-      <HintPath>Z:/programs/CourseWork_OOP/Курсовая работа/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+      <HintPath>Z:/programs/BackUp_CourseWork/BackUp_CourseWork/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Common.Runtime">
-      <HintPath>Z:/programs/CourseWork_OOP/Курсовая работа/Library/ScriptAssemblies/Unity.2D.Common.Runtime.dll</HintPath>
+      <HintPath>Z:/programs/BackUp_CourseWork/BackUp_CourseWork/Library/ScriptAssemblies/Unity.2D.Common.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Tilemap.Editor">
-      <HintPath>Z:/programs/CourseWork_OOP/Курсовая работа/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
+      <HintPath>Z:/programs/BackUp_CourseWork/BackUp_CourseWork/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.SpriteShape.Runtime">
-      <HintPath>Z:/programs/CourseWork_OOP/Курсовая работа/Library/ScriptAssemblies/Unity.2D.SpriteShape.Runtime.dll</HintPath>
+      <HintPath>Z:/programs/BackUp_CourseWork/BackUp_CourseWork/Library/ScriptAssemblies/Unity.2D.SpriteShape.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.PixelPerfect">
-      <HintPath>Z:/programs/CourseWork_OOP/Курсовая работа/Library/ScriptAssemblies/Unity.2D.PixelPerfect.dll</HintPath>
+      <HintPath>Z:/programs/BackUp_CourseWork/BackUp_CourseWork/Library/ScriptAssemblies/Unity.2D.PixelPerfect.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Animation.Editor">
-      <HintPath>Z:/programs/CourseWork_OOP/Курсовая работа/Library/ScriptAssemblies/Unity.2D.Animation.Editor.dll</HintPath>
+      <HintPath>Z:/programs/BackUp_CourseWork/BackUp_CourseWork/Library/ScriptAssemblies/Unity.2D.Animation.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Mathematics.Editor">
-      <HintPath>Z:/programs/CourseWork_OOP/Курсовая работа/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
+      <HintPath>Z:/programs/BackUp_CourseWork/BackUp_CourseWork/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>Z:/programs/CourseWork_OOP/Курсовая работа/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>Z:/programs/BackUp_CourseWork/BackUp_CourseWork/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Common.Editor">
-      <HintPath>Z:/programs/CourseWork_OOP/Курсовая работа/Library/ScriptAssemblies/Unity.2D.Common.Editor.dll</HintPath>
+      <HintPath>Z:/programs/BackUp_CourseWork/BackUp_CourseWork/Library/ScriptAssemblies/Unity.2D.Common.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.InternalAPIEditorBridge.001">
-      <HintPath>Z:/programs/CourseWork_OOP/Курсовая работа/Library/ScriptAssemblies/Unity.InternalAPIEditorBridge.001.dll</HintPath>
+      <HintPath>Z:/programs/BackUp_CourseWork/BackUp_CourseWork/Library/ScriptAssemblies/Unity.InternalAPIEditorBridge.001.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>Z:/programs/CourseWork_OOP/Курсовая работа/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>Z:/programs/BackUp_CourseWork/BackUp_CourseWork/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>Z:/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>

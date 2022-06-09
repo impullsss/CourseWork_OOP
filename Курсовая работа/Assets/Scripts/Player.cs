@@ -24,6 +24,12 @@ public class Player : Character
     Animator animator;
     private bool isJumping;
 
+
+    // Тут добавил Атаку
+    
+    public GameObject attackHitBox;
+
+
     override public void Die(GameObject gameObject)
     {
         //здесь должна быть анимация смерти
@@ -39,6 +45,8 @@ private void Start()
         extraJumps = extraJumpsValue;
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+
+        attackHitBox.SetActive(false); // Вначале сцены атака не активна
     }
 
 
@@ -105,6 +113,24 @@ private void Start()
 
         if (health <= 0) Die(gameObject);
 
+        if (Input.GetKeyDown(KeyCode.L))
+        {
+            animator.SetTrigger("Player_Attack");
+            StartCoroutine(DoAttack());
+        }
+
     }
+
+    IEnumerator DoAttack()// Метод позволяющий атаковать и включающий BoxCollider атаки на 1 секунду
+    {
+        attackHitBox.SetActive(true);
+        yield return new WaitForSeconds(0.5f);
+        attackHitBox.SetActive(false);
+
+        
+
+    }
+
+
 
 }
