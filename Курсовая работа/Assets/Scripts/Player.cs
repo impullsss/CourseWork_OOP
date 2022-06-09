@@ -26,11 +26,6 @@ public class Player : Character
 
     override public void Die(GameObject gameObject)
     {
-        //здесь должна быть анимация смерти
-
-        //gameObject.transform.position = new Vector3(-3, 0);  //перемещение персонажа на исходную позицию
-        //health = maxHealth;
-
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 0);
     }
 
