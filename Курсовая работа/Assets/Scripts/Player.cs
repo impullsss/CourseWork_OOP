@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Player : Character
 {
@@ -24,10 +25,13 @@ public class Player : Character
     private bool isJumping;
 
     override public void Die(GameObject gameObject)
-    { 
+    {
         //здесь должна быть анимация смерти
-        gameObject.transform.position = new Vector3(-3, 0);  //перемещение персонажа на исходную позицию
-        health = maxHealth;
+
+        //gameObject.transform.position = new Vector3(-3, 0);  //перемещение персонажа на исходную позицию
+        //health = maxHealth;
+
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 0);
     }
 
 private void Start()
